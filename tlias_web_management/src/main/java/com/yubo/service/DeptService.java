@@ -11,4 +11,8 @@ public interface DeptService {
     * 查詢所有部門
     * */
     List<Dept> findAll();
+
+    boolean delete(Integer deptId);
+
+    void add(Dept dept);
 }
